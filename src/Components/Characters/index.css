@@ -1,0 +1,56 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 50px;
+}
+
+.leftSideCard {
+  background-color: #ffc533;
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 20px;
+}
+.Heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 70%;
+}
+.rightSideCard {
+  background-color: #0f172a;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffbf1f;
+  text-align: center;
+}
+.input-container {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.input {
+  height: 35px;
+  width: 400px;
+  padding: 10px;
+  outline: none;
+}
+.button {
+  color: #334155;
+  background-color: #ffbf1f;
+  height: 38px;
+  width: 70px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-input-image {
+  width: 60%;
+}
